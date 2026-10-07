@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+section {
+    height: 250px;
+    width: 600px;
+    background-color: chartreuse;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+
+.input {
+    font-size: 1.5rem;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#inputNumber {
+    height: 40px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding-left: 15px;
+}
+
+.valueKG {
+    font-size: 1.3rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.resetBtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#reset {
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}

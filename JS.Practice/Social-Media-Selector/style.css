@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: black;
+    background: linear-gradient(135deg, purple 20%, orange 80%);
+}
+
+.options {
+    height: 40px;
+    width: 350px;
+    font-size: 1.1rem;
+    color: rgb(0, 0, 0, 0.4);
+    padding: 10px;
+    background-color: rgb(255, 255, 255, 0.2);
+    border-radius: 10px;
+}

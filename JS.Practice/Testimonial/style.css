@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    height: 120px;
+    width: 120px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: -60px;
+    left: 42%;
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about {
+    height: 300px;
+    width: 800px;
+    background-color: purple;
+    border-radius: 20px;
+    padding-top: 50px;
+}
+
+.aboutMe,
+.name {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+    padding: 20px;
+}
+
+.NextBtn {
+    display: flex;
+    justify-content: end;
+    margin: 10px 10px 5px;
+}
+
+.next {
+    height: 30px;
+    width: 70px;
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: orange;
+    font-weight: 500;
+    text-decoration: underline;
+    border: none;
+    transition: transform 0.3s ease-in;
+}
+
+.next:hover {
+    transform: scale(1.1);
+    color: yellow;
+}

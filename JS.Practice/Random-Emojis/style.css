@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(254, 119, 119);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emojiBox {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(248, 149, 225);
+    font-size: 3rem;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#emoji {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.generate {
+    margin-top: 20px;
+    height: 50px;
+    width: 100px;
+    background-color: orange;
+    font-size: 1.2rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in;
+}
+
+.generate:hover {
+    background-color: yellowgreen;
+    transform: scale(1.1);
+}
